@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Secular+One&display=swap');
+
+.container .cont-grid{
+	display: grid;
+	grid-gap: 0.5em;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}
+
+.card{
+	height: max-content;
+}
+.colum-grid{
+	background-color: #c1c1c1;
+	padding: 8px;
+	margin: 8px !important;
+}
+.column{
+	margin: 5px !important;
+}
+h5{
+	color: #d63031;
+	font-weight: 700;
+	font-family: 'Secular One', sans-serif;
+}
+p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 600;
+}
+
+span.in-left{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
